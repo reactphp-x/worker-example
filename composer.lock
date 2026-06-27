@@ -710,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp-x/worker.git",
-                "reference": "3287ebac3f1b7e5806a459459a6f907ddf03b699"
+                "reference": "886148b50e0a682392ff386e5f28a632a28353fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp-x/worker/zipball/3287ebac3f1b7e5806a459459a6f907ddf03b699",
-                "reference": "3287ebac3f1b7e5806a459459a6f907ddf03b699",
+                "url": "https://api.github.com/repos/reactphp-x/worker/zipball/886148b50e0a682392ff386e5f28a632a28353fc",
+                "reference": "886148b50e0a682392ff386e5f28a632a28353fc",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
                 "issues": "https://github.com/reactphp-x/worker/issues",
                 "source": "https://github.com/reactphp-x/worker/tree/master"
             },
-            "time": "2026-06-27T00:28:21+00:00"
+            "time": "2026-06-27T02:18:41+00:00"
         }
     ],
     "packages-dev": [],
@@ -752,7 +752,7 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
