@@ -6,7 +6,7 @@ use React\Socket\ConnectionInterface;
 use React\Socket\SocketServer;
 use ReactX\Worker\Worker;
 
-function start_tcp_server(Worker $worker, string $address = '127.0.0.1:9501'): void
+function start_tcp_server(Worker $worker, string $address = '127.0.0.1:6701'): void
 {
     $socket = new SocketServer($address);
 

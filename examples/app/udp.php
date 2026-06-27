@@ -9,7 +9,7 @@ use ReactX\Worker\Worker;
  * react/socket only supports stream (TCP/TLS) connections.
  * UDP uses PHP datagram sockets integrated with the React event loop.
  */
-function start_udp_server(Worker $worker, string $address = '127.0.0.1:9503'): void
+function start_udp_server(Worker $worker, string $address = '127.0.0.1:6703'): void
 {
     $server = stream_socket_server('udp://' . $address, $errno, $errstr, STREAM_SERVER_BIND);
     if ($server === false) {

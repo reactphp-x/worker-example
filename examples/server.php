@@ -18,7 +18,7 @@ $httpWorker = new Worker(function (Worker $worker): void {
     start_http_server($worker);
 });
 $httpWorker->name = 'http:9502';
-$httpWorker->count = 24;
+$httpWorker->count = 12;
 
 $udpWorker = new Worker(function (Worker $worker): void {
     require_once __DIR__ . '/app/udp.php';

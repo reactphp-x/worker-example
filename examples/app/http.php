@@ -8,7 +8,7 @@ use React\Http\Message\Response;
 use React\Socket\SocketServer;
 use ReactX\Worker\Worker;
 
-function start_http_server(Worker $worker, string $address = '127.0.0.1:9502'): void
+function start_http_server(Worker $worker, string $address = '127.0.0.1:6702'): void
 {
     $http = new HttpServer(function (ServerRequestInterface $request) use ($worker): Response {
         $body = sprintf(
