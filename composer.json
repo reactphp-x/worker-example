@@ -1,0 +1,6 @@
+{
+    "require": {
+        "reactphp-x/worker": "dev-master",
+        "react/http": "^1.11"
+    }
+}
